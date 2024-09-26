@@ -65,10 +65,12 @@ input:focus {
 
 .card {
   width: 400px;
+  min-height: 190px;
   padding: 20px 30px;
   margin: 0 auto 30px;
   background-color: #fff;
   border-radius: 5px;
+  box-sizing: content-box;
 }
 
 .card-wide {
